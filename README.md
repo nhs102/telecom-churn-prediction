@@ -34,7 +34,11 @@ The `churn-bigml-80.csv` dataset is sourced from [BigML](https://www.bigml.com/b
 
 ### 3. Model Evaluation
 The optimized XGBoost model was evaluated on the unseen test dataset using various metrics suitable for imbalanced classification problems:
-- **Accuracy:** X.XX%
-- **Precision:** X.XX
-- **Recall:** X.XX (Particular emphasis was placed on Recall, as minimizing false negatives - missing actual churners - is crucial for churn prevention.)
-- **F
+- **Accuracy:** 0.94
+- **Precision:** 0.9
+- **Recall:** 0.69 (Particular emphasis was placed on Recall, as minimizing false negatives - missing actual churners - is crucial for churn prevention.)
+- **F-Score** 0.78
+
+- **Actual Churn** 78
+- **Predicted Churn** 60
+- **Correctly Predictied Churn** 54
