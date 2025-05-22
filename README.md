@@ -4,7 +4,7 @@
 This project aims to predict customer churn in a telecom company and identify the key factors that significantly influence churn. Predicting and preventing customer churn is crucial for telecom companies as it directly impacts their revenue and customer base.
 
 ## 💾 Data Source
-The `churn-bigml-80.csv` dataset is sourced from [BigML](https://www.bigml.com/blog/2012/10/17/churn-prediction/) and contains telecom customer data.
+The `churn-bigml-80.csv` dataset is sourced from [Kaggle](https://www.kaggle.com/datasets/mnassrib/telecom-churn-datasets?select=churn-bigml-80.csv) and contains telecom customer data.
 - **Number of Samples:** 2666
 - **Number of Features:** 20
 - **Target Variable:** Churn (Boolean: True/False indicating churn)
@@ -62,13 +62,13 @@ This project successfully built an `XGBoost` model capable of effectively predic
 - **Exploring Other Models/Ensembles:** Investigate other advanced boosting models like LightGBM, CatBoost, or ensemble techniques such as Stacking to potentially achieve further performance improvements.
 
 ## 🏃‍♀️ How to Run
-1.  Clone this repository: `git clone https://github.com/YourUsername/telecom-churn-prediction.git`
+1.  Clone this repository: `git clone https://github.com/nhs102/telecom-churn-prediction.git`
 2.  Navigate to the project directory: `cd telecom-churn-prediction`
 3.  Install the required libraries: `pip install -r requirements.txt`
 4.  Launch Jupyter Notebook and open the `telecom_churn_prediction.ipynb` file: `jupyter notebook`
 
 ## 📧 Contact
-- LinkedIn: [https://www.linkedin.com/in/shawn-nam-b79614204/]
+- LinkedIn: [Click Here](https://www.linkedin.com/in/shawn-nam-b79614204/)
 - Email: tjr001136@gmail.com
 
 
