@@ -39,6 +39,36 @@ The optimized XGBoost model was evaluated on the unseen test dataset using vario
 - **Recall:** 0.69 (Particular emphasis was placed on Recall, as minimizing false negatives - missing actual churners - is crucial for churn prevention.)
 - **F-Score** 0.78
 
+- **Confusion Matrix**
+- ![image](https://github.com/user-attachments/assets/3db4a7a7-a03f-41e9-b3fd-bed8c4c78833)
+- 
 - **Actual Churn** 78
 - **Predicted Churn** 60
 - **Correctly Predictied Churn** 54
+
+- ### 4. Model Interpretation: Identifying Key Churn Factors
+The `Feature Importance` from the trained `XGBoost` model was analyzed to identify the most influential factors contributing to customer churn.
+- **`Total day charge`**: Customers with higher daily call charges showed a notably higher churn rate. This suggests that dissatisfaction with call costs could be a primary reason for churn.
+- **`Customer service calls`**: An increasing number of calls to customer service correlated with a higher likelihood of churn. Frequent calls may indicate unresolved issues or growing dissatisfaction with the service.
+- **`International plan`**: Customers subscribed to an international plan exhibited a higher churn rate. This might suggest issues related to the quality or pricing of international calling services.
+- ... (Add other significant features you found and provide business insights for each)
+
+### 🚀 Conclusion and Business Implications
+This project successfully built an `XGBoost` model capable of effectively predicting telecom customer churn and identified the core factors influencing it. The model can empower telecom companies to proactively identify high-risk customers and implement targeted retention strategies, such as addressing high `Total day charge` concerns, improving resolution for frequent `Customer service calls`, or offering special incentives to `International plan` users. Ultimately, this leads to improved customer retention and increased revenue.
+
+### 💡 Future Enhancements
+- **Data Enrichment:** Integrate more diverse customer behavior data (e.g., website visit logs, app usage patterns) to further enhance predictive accuracy.
+- **Real-time Prediction System:** Deploy the prediction model as an API to enable real-time monitoring of churn risk and immediate intervention strategies.
+- **Exploring Other Models/Ensembles:** Investigate other advanced boosting models like LightGBM, CatBoost, or ensemble techniques such as Stacking to potentially achieve further performance improvements.
+
+## 🏃‍♀️ How to Run
+1.  Clone this repository: `git clone https://github.com/YourUsername/telecom-churn-prediction.git`
+2.  Navigate to the project directory: `cd telecom-churn-prediction`
+3.  Install the required libraries: `pip install -r requirements.txt`
+4.  Launch Jupyter Notebook and open the `telecom_churn_prediction.ipynb` file: `jupyter notebook`
+
+## 📧 Contact
+- LinkedIn: [https://www.linkedin.com/in/shawn-nam-b79614204/]
+- Email: tjr001136@gmail.com
+
+
